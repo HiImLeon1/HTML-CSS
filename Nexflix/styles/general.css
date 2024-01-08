@@ -1,0 +1,24 @@
+
+body{
+    font-family: Roboto, Arial;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: #181818;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: grid;
+
+}
+.movs img{
+    height: 400px; 
+    width: 300px;
+    object-fit: cover;
+}
+.movs img:hover{
+    height: 600px; 
+    width: 450px;
+    object-fit: fill;
+    
+}
