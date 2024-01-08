@@ -17,8 +17,6 @@ body{
     object-fit: cover;
 }
 .movs img:hover{
-    height: 600px; 
-    width: 450px;
-    object-fit: fill;
-    
+    transform: scale(1.2);
+    transition-duration: 0.7s;
 }
